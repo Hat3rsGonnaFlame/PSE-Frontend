@@ -38,34 +38,39 @@ h2 {
     background-color: #2B2B2B;
 }
 .rating-stars-wrapper {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    width: fit-content
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  width: fit-content;
 }
+
 input[type="radio"] {
-    display: none;
+  display: none;
 }
+
 label {
-    cursor: pointer;
-    font-size: 20px;
-    color: yellow;
+  cursor: pointer;
+  font-size: 20px;
+  color: yellow;
 }
 
 label:before {
-    content: '\2606'; /* Unicode for empty star */
-    position: relative;
+  content: '\2606';
+  position: relative;
 }
+
 input[type="radio"]:checked ~ label:before {
-    content: '\2605'; /* Unicode for filled star */
-    opacity: 0.7;
+  content: '\2605';
+  opacity: 0.7;
 }
+
 .rating-stars-wrapper label:hover:before,
 .rating-stars-wrapper label:hover ~ label:before {
-    content: '\2605';
-    opacity: 0.7;
+  content: '\2605';
+  opacity: 0.7;
 }
+
 .rating-stars-wrapper:not(:hover) input[type="radio"]:checked ~ label:before,
 .rating-stars-wrapper:hover input[type="radio"]:hover ~ label:before {
-    opacity: 1;
+  opacity: 1;
 }
