@@ -11,6 +11,8 @@ h1 {
 button {
     background-color: #1C1C1E;
     color: white;
+    border-style: none;
+    font-size: 22px;
 }
 
 h2 {
