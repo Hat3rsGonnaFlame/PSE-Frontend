@@ -1,9 +1,15 @@
 body {
     background-color: #404040;
+    color: white;
+    font-family: "Noto Sans JP";
 }
 
 h1 {
-    color: white;
-    font-family: "Noto Sans JP";
     font-weight: 435;
+}
+
+button {
+    color: white;
+    background-color: #1C1C1E;
+    font-size: 20px;
 }
