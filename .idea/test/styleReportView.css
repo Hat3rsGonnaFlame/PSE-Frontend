@@ -28,7 +28,7 @@ h2 {
 
 .mutation {
     width: 2in;
-    height: 1.75cm;
+    height: 2cm;
     border: 1px solid #333333;
     color: white;
 }
@@ -70,3 +70,31 @@ input[type="radio"]:checked ~ label:before {
 .rating-stars-wrapper:hover input[type="radio"]:hover ~ label:before {
   opacity: 1;
 }
+
+.filters{
+    font-size: 10px;
+    width: 2in;
+    border: 1px solid #333333;
+
+}
+textarea {
+    width: 60px;
+    height: 15px;
+    resize: none;
+    background: black;
+    color: white;
+}
+
+select {
+    width: 60px;
+    height: 15px;
+    background: black;
+    color: white;
+}
+
+button {
+    margin-left: 55px;
+    font-size: 10px;
+    height: 25px;
+}
+
