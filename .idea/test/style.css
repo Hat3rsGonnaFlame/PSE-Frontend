@@ -7,14 +7,22 @@ h1 {
     font-family: "Noto Sans JP";
     font-weight: 435;
 }
+
+button {
+    color: white;
+    background-color: #1C1C1E;
+}
+
 h2 {
     color: white;
     font-family: "Noto Sans JP";
     font-weight: 475;
     font-size: smaller;
 }
+
 .mutation {
     width: 2in;
     height: 1.5cm;
     border: 1px solid #333333;
     color: white;
+}
