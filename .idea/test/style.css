@@ -15,6 +15,10 @@ button {
     font-size: 22px;
 }
 
+.project-buttons {
+    font-size: 15px;
+}
+
 h2 {
     color: white;
     font-family: "Noto Sans JP";
