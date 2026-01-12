@@ -2,10 +2,18 @@ body {
     background-color: #404040;
     color: white;
     font-family: "Noto Sans JP";
+    letter-spacing: 0.5px;
+    margin-left: 30px;
+    margin-right: 40px;
 }
 
 h1 {
     font-weight: 435;
+    margin-top: 0px;
+}
+
+span {
+    background-color: #2B2B2B;
 }
 
 button {
@@ -13,10 +21,16 @@ button {
     color: white;
     border-style: none;
     font-size: 22px;
+    letter-spacing: 0.5px;
+}
+
+.new-project {
+    margin-bottom: 5px;
 }
 
 .project-buttons {
     font-size: 15px;
+    margin-bottom: 5px;
 }
 
 .project {
@@ -26,4 +40,11 @@ button {
 
 .reports {
     background-color: #2B2B2B;
+    padding-left: 10px;
+    margin-right: 150px;
+}
+
+.report-description {
+    padding-bottom: 10px;
+    padding-left: 18px;
 }
