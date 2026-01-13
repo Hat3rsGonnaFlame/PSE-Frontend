@@ -63,20 +63,35 @@
 
 <div class="modal-container" id="modal_container">
     <div class="modal">
-        <p> Edit Project - Project Name </p>
-        <div>
-            <span>Project Name:</span>
-            <textarea></textarea>
+        <div class="modal-header">
+            <span class="edit-title"> Edit Project - Project Name </span>
+            <button class="button-edit cancel" id="cancel">&times;</button>
         </div>
+        <div class="modal-body">
+            <div>
+                <span>Project Name:</span>
+                <textarea></textarea>
+            </div>
 
-        <div>
-            <span>GitHub Repository:</span>
-            <textarea></textarea>
+            <div>
+                <span>GitHub Repository:</span>
+                <textarea></textarea>
+            </div>
+
+            <div class="github-description">
+                <span>Linking your GitHub Repository allows filling issues directly on GitHub</span>
+            </div>
+
+            <div>
+                <button class="button-edit" id="exports"> Create Export </button>
+            </div>
+
+            <div>
+                <button class="button-edit destroy" id="destroy"> Destroy Project </button>
+                <button class="button-edit" id="save"> Save Changes </button>
+            </div>
+
         </div>
-
-        <button class="button-edit" id="export"> Create Export </button>
-        <button class="button-edit" id="delete"> Destroy Project </button>
-        <button class="button-edit" id="save"> Save Changes </button>
     </div>
 </div>
 

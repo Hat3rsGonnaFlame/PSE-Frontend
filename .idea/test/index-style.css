@@ -150,10 +150,29 @@ body {
     max-width: 100%;
 }
 
-.modal p {
+.modal-header {
     background-color: #2B2B2B;
     margin: 0;
     line-height: 1.5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-body {
+    padding-left: 10px;
+}
+
+.edit-title {
+    font-size: 19px;
+    padding-left: 10px;
+    padding-top: 4px;
+}
+
+.github-description {
+    color: #BCBCBC;
+    font-size: 10px;
+    line-height: 1;
 }
 
 .button-edit {
@@ -165,6 +184,26 @@ body {
     cursor: pointer;
 }
 
+.button-edit.cancel {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.7em;
+    padding-right: 8px;
+}
+
+.button-edit.destroy {
+    color: #E5534B;
+}
+
 .button-edit:hover {
     background: #57575e;
+}
+
+textarea {
+    width: 220px;
+    height: 15px;
+    resize: none;
+    background: #1C1C1E;
+    color: white;
 }
