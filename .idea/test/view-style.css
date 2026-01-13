@@ -78,6 +78,6 @@ textarea {
 select {
     width: 60px;
     height: 15px;
-    background: black;
+    background: #1C1C1E;
     color: white;
 }
