@@ -8,7 +8,7 @@ function buildMutations() {
     }
     for(let i = 0; i < 25; i++) {
         mutationdiv.innerHTML +=
-        "<h2>Mutation#" + Math.random() + "</h2>"
+        "<h2>Mutation#" + Math.round(Math.random()*100) + "</h2>"
         +"<div class='rating-stars-wrapper'>" + "<input type='radio' name='rating-stars' value='5' id='id-5'>"
         + "<label for='id-5'></label>"
         + "<input type='radio' name='rating-stars' value='4' id='id-4'>"

@@ -17,17 +17,22 @@ h2 {
 
 .mutation {
     width: 2in;
+    height: 4.5in;
     border: 1px solid #333333;
     color: white;
+    scrollbar-color: black #1C1C1E;
+
 
 }
 
 .rating-stars-wrapper {
   display: flex;
+  width: 2in;
   flex-direction: row-reverse;
   justify-content: center;
   width: fit-content;
-  border-bottom: black;
+  border-bottom: 1px solid black;
+
 }
 
 input[type="radio"] {
