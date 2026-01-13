@@ -11,6 +11,7 @@ body {
 }
 
 .header h1 {
+    font-size: 35px;
     font-weight: 435;
     margin-bottom: 0px;
     margin-top: 0px;
@@ -84,7 +85,8 @@ body {
 
 .date {
     font-weight: 100;
-    font-size: 11px;
+    font-size: 10px;
+    font-family: "Noto Sans JP";
     padding-top: 78px;
     padding-right: 3px;
     display: inline-flex;
