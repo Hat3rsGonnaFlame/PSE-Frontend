@@ -146,7 +146,8 @@ body {
     background-color: #404040;
     border: 2px solid #333333;
     border-color: #797979;
-    width: 450px;
+    width: 470px;
+    height: 290px;
     max-width: 100%;
 }
 
@@ -160,19 +161,24 @@ body {
 }
 
 .modal-body {
-    padding-left: 10px;
+    padding-right: 9px;
+    padding-left: 9px;
+    padding-bottom: 5px;
 }
 
 .edit-title {
     font-size: 19px;
-    padding-left: 10px;
+    padding-left: 9px;
     padding-top: 4px;
 }
 
 .github-description {
+    font-family: "Noto Sans JP";
+    font-weight: 400;
     color: #BCBCBC;
     font-size: 10px;
     line-height: 1;
+    padding-left: 20px;
 }
 
 .button-edit {
@@ -181,7 +187,20 @@ body {
     border-style: none;
     font-size: 14px;
     letter-spacing: 0.9px;
+    padding: 2px 0px;
     cursor: pointer;
+    width: 124px;
+}
+
+.button-position {
+    padding-top: 99px;
+}
+
+.button-spacing {
+    margin-top: -6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .button-edit.cancel {
