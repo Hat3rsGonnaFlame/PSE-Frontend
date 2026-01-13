@@ -1,9 +1,12 @@
+/* body layout */
 body {
     letter-spacing: 0.5px;
-    margin-left: 30px;
-    margin-right: 40px;
+    margin: 0;
+    padding-left: 30px;
+    padding-right: 40px;
 }
 
+/* header positioning */
 .header {
     display: flex;
     justify-content: space-between;
@@ -12,11 +15,12 @@ body {
 
 .header h1 {
     font-size: 35px;
-    font-weight: 435;
+    font-weight: 400;
     margin-bottom: 0px;
     margin-top: 0px;
 }
 
+/* button layout */
 .button {
     background-color: #1C1C1E;
     color: white;
@@ -27,27 +31,31 @@ body {
     cursor: pointer;
 }
 
+/* new project button adjustments */
 .button.new {
     margin-top: 50px;
     margin-bottom: 8px;
     font-weight: 400;
 }
 
+/* action buttons adjustments */
 .button.actions {
     font-size: 14px;
     margin-bottom: 8px;
 }
 
+/* hover animation */
 .button:hover {
     background: #57575e;
 }
 
+/* everything for the project title position etc. */
 .project.title {
     background-color: #2B2B2B;
     border: none;
     font-size: 23px;
-    position: relative;
-    top: -23px;
+    position: absolute;
+    top: -19px;
     left: -12px;
     display: inline-flex;
     align-items: center;
@@ -56,20 +64,16 @@ body {
     margin-bottom: 0px;
 }
 
+/* project layout */
 .project {
     border: 2px solid #333333;
     border-color: #797979;
+    position: relative;
+    padding-top: 23px;
     margin-bottom: 30px;
 }
 
-.project-actions {
-    display: flex;
-    justify-content: flex-end;
-    gap: 18px;
-    margin-top: 10px;
-    margin-right: 17px;
-}
-
+/* report layout */
 .report {
     background-color: #2B2B2B;
     margin-top: 10px;
@@ -79,17 +83,42 @@ body {
     justify-content: space-between;
 }
 
-.report.description {
-    font-size: 15px;
+.report:first-child {
+    margin-top: 0;
 }
 
+/* position and size for the report title */
+.report-title {
+    font-size: 22px;
+    margin-left: 10px;
+    line-height: 1;
+}
+
+/* adjustments for the report description */
+.report-description {
+    font-size: 15px;
+    margin-left: 25px;
+    display: block;
+    line-height: 1;
+}
+
+/* date adjustments */
 .date {
     font-weight: 100;
-    font-size: 10px;
+    font-size: 11px;
     font-family: "Noto Sans JP";
-    padding-top: 78px;
+    padding-top: 55px;
     padding-right: 3px;
     display: inline-flex;
     align-items: center;
     line-height: 1;
+}
+
+/* positioning for the project action buttons */
+.project-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 18px;
+    margin-top: 10px;
+    margin-right: 17px;
 }
