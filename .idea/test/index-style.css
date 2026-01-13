@@ -143,8 +143,28 @@ body {
 }
 
 .modal {
-    color: black;
-    background-color: white;
-    width: 300px;
+    background-color: #404040;
+    border: 2px solid #333333;
+    border-color: #797979;
+    width: 450px;
     max-width: 100%;
+}
+
+.modal p {
+    background-color: #2B2B2B;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.button-edit {
+    background-color: #1C1C1E;
+    color: white;
+    border-style: none;
+    font-size: 14px;
+    letter-spacing: 0.9px;
+    cursor: pointer;
+}
+
+.button-edit:hover {
+    background: #57575e;
 }
