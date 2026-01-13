@@ -1,6 +1,7 @@
 
 function buildMutations() {
     const mutationdiv = document.querySelector(".mutation")
+    mutationdiv.innerHTML =""
     const mutation = {
         id: 123,
         star_rating: 1,
@@ -8,6 +9,7 @@ function buildMutations() {
     }
     for(let i = 0; i < 25; i++) {
         mutationdiv.innerHTML +=
+        "<div class='box'>"+
         "<h2>Mutation#" + Math.round(Math.random()*100) + "</h2>"
         +"<div class='rating-stars-wrapper'>" + "<input type='radio' name='rating-stars' value='5' id='id-5'>"
         + "<label for='id-5'></label>"
@@ -18,8 +20,8 @@ function buildMutations() {
         + "<input type='radio' name='rating-stars' value='2' id='id-2'>"+ "<label for='id-2'></label>"
         + "<input type='radio' name='rating-stars' value='1' id='id-1'>"+ "<label for='id-1'></label>"
 
-            "</div>"
-        + "<span>Algo:" +mutation.heuristic_score +"</span>"
+            "</div>"+"</div>"
+
 
 
 

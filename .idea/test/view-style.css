@@ -27,11 +27,12 @@ h2 {
 
 .rating-stars-wrapper {
   display: flex;
+
   width: 2in;
   flex-direction: row-reverse;
   justify-content: center;
   width: fit-content;
-  border-bottom: 1px solid black;
+  margin-bottom: 0;
 
 }
 
@@ -85,4 +86,9 @@ select {
     height: 15px;
     background: #1C1C1E;
     color: white;
+}
+.box {
+    width: 1.84in;
+    border-bottom: 1px solid black;
+    height: 0.65in;
 }
