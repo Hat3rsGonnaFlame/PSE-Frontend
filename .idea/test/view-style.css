@@ -27,6 +27,7 @@ h2 {
   flex-direction: row-reverse;
   justify-content: center;
   width: fit-content;
+  border-bottom: black;
 }
 
 input[type="radio"] {

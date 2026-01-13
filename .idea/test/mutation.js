@@ -19,6 +19,7 @@ function buildMutations() {
         + "<input type='radio' name='rating-stars' value='1' id='id-1'>"+ "<label for='id-1'></label>"
 
             "</div>"
+        + "<span>Algo:" +mutation.heuristic_score +"</span>"
 
 
 
