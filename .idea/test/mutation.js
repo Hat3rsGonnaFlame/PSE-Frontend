@@ -1,13 +1,15 @@
 
 function buildMutations() {
     const mutationdiv = document.querySelector(".mutation")
-    mutationdiv.innerHTML =""
+    const newHTML = "";
+    mutationdiv.innerHTML = "";
     const mutation = {
         id: 123,
         star_rating: 1,
         heuristic_score: 0.89,
     }
     for(let i = 0; i < 25; i++) {
+
         mutationdiv.innerHTML +=
         "<div class='box'>"+
         "<h2>Mutation#" + Math.round(Math.random()*100) + "</h2>"

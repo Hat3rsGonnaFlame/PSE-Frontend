@@ -17,10 +17,10 @@ h2 {
 
 .mutation {
     width: 2in;
-    height: 4.5in;
     border: 1px solid #333333;
     color: white;
     scrollbar-color: black #1C1C1E;
+
 
 
 }
@@ -91,4 +91,11 @@ select {
     width: 1.84in;
     border-bottom: 1px solid black;
     height: 0.65in;
+}
+.view-mutation-box {
+    border: 1px solid black;
+    width: 105em;
+    height: 10em;
+    margin-left: 2.02in;
+    margin-top: -10em;
 }
