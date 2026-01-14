@@ -1,9 +1,15 @@
 /* body layout */
 body {
-    letter-spacing: 0.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.04em;
     margin: 0;
-    padding-left: 30px;
-    padding-right: 40px;
+}
+
+.main {
+    width: 100%;
+    max-width: 50em;
 }
 
 /* header positioning */
@@ -14,10 +20,10 @@ body {
 }
 
 .header h1 {
-    font-size: 35px;
+    font-size: 2.1875em;
     font-weight: 400;
-    margin-bottom: 0px;
-    margin-top: 0px;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 /* button layout */
@@ -25,23 +31,23 @@ body {
     background-color: #1C1C1E;
     color: white;
     border-style: none;
-    font-size: 22px;
-    letter-spacing: 0.9px;
+    font-size: 1.375em;
+    letter-spacing: 0.05625em;
     padding: 2px 7px;
     cursor: pointer;
 }
 
 /* new project button adjustments */
 .button.new {
-    margin-top: 50px;
-    margin-bottom: 8px;
+    margin-top: 3.125em;
+    margin-bottom: 0.5em;
     font-weight: 400;
 }
 
 /* action buttons adjustments */
 .button.actions {
-    font-size: 14px;
-    margin-bottom: 8px;
+    font-size: 0.875em;
+    margin-bottom: 0.5em;
 }
 
 /* hover animation */
@@ -53,7 +59,7 @@ body {
 .project.title {
     background-color: #2B2B2B;
     border: none;
-    font-size: 23px;
+    font-size: 1.4375em;
     position: absolute;
     top: -19px;
     left: -12px;
@@ -61,24 +67,24 @@ body {
     align-items: center;
     line-height: 1;
     padding: 5px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 /* project layout */
 .project {
-    border: 2px solid #333333;
+    border: 0.125em solid #333333;
     border-color: #797979;
     position: relative;
-    padding-top: 23px;
-    margin-bottom: 30px;
+    padding-top: 1.4375em;
+    margin-bottom: 1.875em;
 }
 
 /* report layout */
 .report {
     background-color: #2B2B2B;
-    margin-top: 10px;
-    margin-right: 17px;
-    margin-left: 17px;
+    margin-top: 0.625em;
+    margin-right: 1.0625em;
+    margin-left: 1.0625em;
     display: flex;
     justify-content: space-between;
     cursor: pointer;
@@ -90,15 +96,15 @@ body {
 
 /* position and size for the report title */
 .report-title {
-    font-size: 22px;
-    margin-left: 10px;
+    font-size: 1.375em;
+    margin-left: 0.4em;
     line-height: 1;
 }
 
 /* adjustments for the report description */
 .report-description {
-    font-size: 15px;
-    margin-left: 25px;
+    font-size: 0.9375em;
+    margin-left: 1.5625em;
     display: block;
     line-height: 1;
 }
@@ -106,10 +112,10 @@ body {
 /* date adjustments */
 .date {
     font-weight: 100;
-    font-size: 11px;
+    font-size: 0.6875em;
     font-family: "Noto Sans JP";
-    padding-top: 55px;
-    padding-right: 3px;
+    padding-top: 5.5em;
+    padding-right: 0.1875em;
     display: inline-flex;
     align-items: center;
     line-height: 1;
@@ -119,9 +125,9 @@ body {
 .project-actions {
     display: flex;
     justify-content: flex-end;
-    gap: 18px;
-    margin-top: 10px;
-    margin-right: 17px;
+    gap: 1.125em;
+    margin-top: 0.625em;
+    margin-right: 1.0625em;
 }
 
 .modal-container {
@@ -145,10 +151,10 @@ body {
 
 .modal {
     background-color: #404040;
-    border: 2px solid #333333;
+    border: 0.125em solid #333333;
     border-color: #797979;
-    width: 470px;
-    height: 290px;
+    width: 29.375em;
+    height: 18.125em;
     max-width: 100%;
 }
 
@@ -162,44 +168,44 @@ body {
 }
 
 .modal-body {
-    padding-right: 9px;
-    padding-left: 9px;
-    padding-bottom: 5px;
+    padding-right: 0.5625em;
+    padding-left: 0.5625em;
+    padding-bottom: 0.3125em;
 }
 
 .edit-title {
-    font-size: 19px;
-    padding-left: 9px;
-    padding-top: 4px;
+    font-size: 1.1875em;
+    padding-left: 0.5625em;
+    padding-top: 0.25em;
 }
 
 .github-description {
     font-family: "Noto Sans JP";
     font-weight: 400;
     color: #BCBCBC;
-    font-size: 10px;
+    font-size: 0.625em;
     line-height: 1;
-    padding-left: 25px;
-    padding-top: 10px;
+    padding-left: 1.5625em;
+    padding-top: 0.625em;
 }
 
 .button-edit {
     background-color: #1C1C1E;
     color: white;
     border-style: none;
-    font-size: 14px;
-    letter-spacing: 0.9px;
-    padding: 2px 0px;
+    font-size: 0.875em;
+    letter-spacing: 0.05625em;
+    padding: 0.125em 0em;
     cursor: pointer;
-    width: 124px;
+    width: 7.75em;
 }
 
 .button-position {
-    padding-top: 109px;
+    padding-top: 6.8125em;
 }
 
 .button-spacing {
-    margin-top: -6px;
+    margin-top: -0.375em;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -210,7 +216,7 @@ body {
     outline: none;
     background: none;
     font-size: 1.7em;
-    width: 35px;
+    width: 2.1875em;
 }
 
 .button-edit.destroy {
@@ -224,18 +230,18 @@ body {
 .adjust {
     display: flex;
     align-items: flex-start;
-    gap: 5px;
-    margin-bottom: -10px;
+    gap: 0.3125em;
+    margin-bottom: -0.625em;
 }
 
 .adjust textarea {
     border: none;
-    width: 245px;
-    height: 15px;
+    width: 15.3125em;
+    height: 0.9375em;
     resize: none;
     background: #1C1C1E;
     color: white;
-    border-bottom: 2px solid #797979;
-    border-right: 1px solid #797979;
-    margin-top: 11px;
+    border-bottom: 0.125em solid #797979;
+    border-right: 0.0625em solid #797979;
+    margin-top: 0.6875em;
 }

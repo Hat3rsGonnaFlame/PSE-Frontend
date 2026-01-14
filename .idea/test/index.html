@@ -8,110 +8,113 @@
 </head>
 <body>
 
-<div class="header">
+<div class="main">
 
-    <h1> Welcome TestUser </h1>
-    <button class="button new">New Project</button>
+    <div class="header">
 
-</div>
-
-<div class="projects">
-
-    <div class="project">
-
-        <span class="project title">Project 1</span>
-
-        <div class="reports">
-
-            <div class="report">
-                <div>
-
-                    <span class="report-title">Report 1</span>
-                    <span class="report-description">128 Mutations in 35 Classes, 3 Survived</span>
-
-                </div>
-                <span class="date">2025-01-01 13:00</span>
-            </div>
-
-            <div class="report">
-                <div>
-
-                    <span class="report-title">Report 2</span>
-                    <span class="report-description">128 Mutations in 35 Classes, 3 Survived</span>
-
-                </div>
-
-                <span class="date">2025-01-01 13:00</span>
-
-            </div>
-        </div>
-        <div class="project-actions">
-
-            <button class="button actions">Add Report</button>
-            <button class="button actions edit">Edit Project</button>
-
-        </div>
+        <h1> Welcome TestUser </h1>
+        <button class="button new">New Project</button>
 
     </div>
 
-    <div class="project">
-        <span class="project title">Project 2</span>
-        <div class="reports">
+    <div class="projects">
 
-            <div class="report">
-                <div>
-                    <span class="report-title">Report 1</span>
-                    <span class="report-description">128 Mutations in 35 Classes, 3 Survived</span>
+        <div class="project">
+
+            <span class="project title">Project 1</span>
+
+            <div class="reports">
+
+                <div class="report">
+                    <div>
+
+                        <span class="report-title">Report 1</span>
+                        <span class="report-description">128 Mutations in 35 Classes, 3 Survived</span>
+
+                    </div>
+                    <span class="date">2025-01-01 13:00</span>
                 </div>
 
-                <span class="date">2025-01-01 13:00</span>
+                <div class="report">
+                    <div>
+
+                        <span class="report-title">Report 2</span>
+                        <span class="report-description">128 Mutations in 35 Classes, 3 Survived</span>
+
+                    </div>
+
+                    <span class="date">2025-01-01 13:00</span>
+
+                </div>
+            </div>
+            <div class="project-actions">
+
+                <button class="button actions">Add Report</button>
+                <button class="button actions edit">Edit Project</button>
 
             </div>
+
         </div>
-        <div class="project-actions">
 
-            <button class="button actions">Add Report</button>
-            <button class="button actions edit">Edit Project</button>
+        <div class="project">
+            <span class="project title">Project 2</span>
+            <div class="reports">
 
+                <div class="report">
+                    <div>
+                        <span class="report-title">Report 1</span>
+                        <span class="report-description">128 Mutations in 35 Classes, 3 Survived</span>
+                    </div>
+
+                    <span class="date">2025-01-01 13:00</span>
+
+                </div>
+            </div>
+            <div class="project-actions">
+
+                <button class="button actions">Add Report</button>
+                <button class="button actions edit">Edit Project</button>
+
+            </div>
         </div>
     </div>
-</div>
 
-<div class="modal-container" id="modal_container">
-    <div class="modal">
-        <div class="modal-header">
-            <span class="edit-title"> Edit Project - Project Name </span>
-            <button class="button-edit cancel" id="cancel">&times;</button>
-        </div>
-        <div class="modal-body">
-            <div class="adjust">
-                <span>Project Name:</span>
-                <textarea></textarea>
+    <div class="modal-container" id="modal_container">
+        <div class="modal">
+            <div class="modal-header">
+                <span class="edit-title"> Edit Project - Project Name </span>
+                <button class="button-edit cancel" id="cancel">&times;</button>
             </div>
-
-            <div class="adjust">
-                <span>GitHub Repository:</span>
-                <textarea></textarea>
-            </div>
-
-            <div class="github-description">
-                <span>Linking your GitHub Repository allows filling issues directly on GitHub</span>
-            </div>
-
-            <div class="button-position">
-                <div>
-                    <button class="button-edit" id="exports"> Create Export </button>
+            <div class="modal-body">
+                <div class="adjust">
+                    <span>Project Name:</span>
+                    <textarea></textarea>
                 </div>
 
-                <div class="button-spacing">
-                    <button class="button-edit destroy" id="destroy"> Destroy Project </button>
-                    <button class="button-edit" id="save"> Save Changes </button>
+                <div class="adjust">
+                    <span>GitHub Repository:</span>
+                    <textarea></textarea>
                 </div>
+
+                <div class="github-description">
+                    <span>Linking your GitHub Repository allows filling issues directly on GitHub</span>
+                </div>
+
+                <div class="button-position">
+                    <div>
+                        <button class="button-edit" id="exports"> Create Export </button>
+                    </div>
+
+                    <div class="button-spacing">
+                        <button class="button-edit destroy" id="destroy"> Destroy Project </button>
+                        <button class="button-edit" id="save"> Save Changes </button>
+                    </div>
+                </div>
+
             </div>
-
-
         </div>
     </div>
+
 </div>
 
 <script src="edit-project.js"></script>
