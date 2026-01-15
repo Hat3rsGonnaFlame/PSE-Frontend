@@ -13,7 +13,7 @@
     <div class="header">
 
         <h1> Welcome TestUser </h1>
-        <button class="button new">New Project</button>
+        <button class="button new" id="new-project">New Project</button>
 
     </div>
 
@@ -79,10 +79,10 @@
         </div>
     </div>
 
-    <div class="modal-container" id="modal_container">
+    <div class="modal-container" id="edit-project">
         <div class="modal">
             <div class="modal-header">
-                <span class="edit-title"> Edit Project - Project Name </span>
+                <span class="popup-title"> Edit Project - Project Name </span>
                 <button class="button-edit cancel" id="cancel">&times;</button>
             </div>
             <div class="modal-body">
@@ -115,9 +115,29 @@
         </div>
     </div>
 
+    <div class="modal-container" id="create-project">
+        <div class="modal">
+            <div class="modal-header">
+                <span class="popup-title"> Edit Project - Project Name </span>
+                <button class="button-edit cancel" id="create-cancel">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="adjust">
+                    <span>Project Name:</span>
+                    <textarea></textarea>
+                </div>
+
+                <div class="button-position">
+                    <button class="button-edit" id="create">Create</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
 </div>
 
+<script src="create-project.js"></script>
 <script src="edit-project.js"></script>
-
 </body>
 </html>
